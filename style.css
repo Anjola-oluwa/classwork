@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        margin-left: 45%;
+        margin-right: 40%;
+        
+    }
+
+    .text{
+        height: auto;
+        width: 50%;
+        position: relative;
+        bottom: 30px;
+        right: -150px; 
+    } 
+
+    .book{
+        justify-content: center;
+        align-items: center;
+        background-color: darkslategray;
+        width: 800px;
+        height: 30px;
+        border-radius: 40px;
+        display: flex;
+        
+    }
+
+    .size{
+        color: white;
+        margin-right: 10px;
+    }
+    .outline{
+        width: 700px;
+        height: auto;
+        margin: 25px;
+    }
+
+    .edit{
+        margin: 10px;
+        width: 250px;
+        height: 350px;
+        background-color: wheat;
+        border-radius: 20px;
+        left: 50px;
+        margin-top: -100px;
+    }
+
+    .file{
+        position: relative;
+        top: -10px;
+        padding-left: 2rem;
+        font-size: 8px;
+    }
+
+    .edit2{
+        margin: 10px;
+        width: 250px;
+        height: 350px;
+        background-color: wheat;
+        border-radius: 20px;
+        margin-top: -100px;
+        }
+
+    .file2{
+        position: relative;
+        top: -10px;
+        padding-left: 2rem;
+    }
+
+    .edit3{
+        margin: 10px;
+        width: 250px;
+        height: 350px;
+        background-color: wheat;
+        border-radius: 20px;
+        margin-top: -100px;
+        }
+
+    .file3{
+        position: relative;
+        top: -10px;
+        padding-left: 2rem;
+    }
+
+    .overall{
+        display: flex;
+        /* position: relative;
+        right: -100px; */
+    }
+
+    .image{
+        width: 800px;
+        border-radius: 20px;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .timeline{
+        z-index: 1;
+        position: relative;
+        bottom: 180px;
+        color: white;
+        font-size: 35px;
+    }
+
+    .view{
+        z-index: 1;
+        position: relative;
+        bottom: 160px;
+        color: white;
+    }
+    .text4{
+        position: relative;
+        top: 10px;
+        font-size: 20px;
+        text-align: center;
+        right: 40px;
+        font-weight: 900;
+        }
+
+        .text5{
+            position: relative;
+            top: 10px;
+            font-size: 20px;
+            text-align: center;
+            right: 40px;
+            font-weight: 900;
+        }
+        .text6{
+            position: relative;
+            top: 10px;
+            font-size: 20px;
+            text-align: center;
+            right: 40px;
+            font-weight: 900;
+        }
+
+   .img1{
+        width: 250px;
+        height: 180px;
+        padding: 2rem;
+    }
+
+    .img2{
+        width: 250px;
+        height: 180px;
+        padding: 2rem;
+    }
+
+    .img3{
+        width: 250px;
+        height: 180px;
+        padding: 2rem;
+    }
+
+    .time{
+        padding-left: 4rem;
+        margin-top: 10px;
+    }
+
+    .lastimage{
+        width: 40px;
+        height: 40px;
+       margin-left: 50px;
+    }
+   .link{
+    padding-left: 2rem;
+    font-size: 10px;
+    font-weight: 900;
+   }
+   .link2{
+    padding-left: 2rem;
+    font-weight: 900;
+    font-size: 10px;
+   }
+
+   .line{
+    width: 400px;
+    position: relative;
+    left: 400px;
+   }
+   .Little{
+    margin-left: 630px;
+   }
+
+   @media(max-width:425px){
+    .container{
+      flex-direction: column;
+    }
+}
